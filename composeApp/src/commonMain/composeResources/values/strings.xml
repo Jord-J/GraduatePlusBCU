@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name_hint">Name</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="bio_hint">Enter your biography...</string>
+    <string name="login_button">Login</string>
+    <string name="signup_button">Sign up</string>
+    <string name="logout_button">Logout</string>
+    <string name="confirm_button">Confirm changes</string>
+    <string name="reset_button">Send reset email</string>
+    <string name="edit_button">Edit profile</string>
+    <string name="select_button">Select</string>
+    <string name="submit_button">Submit</string>
+    <string name="home_page">Home</string>
+    <string name="login_page">Login</string>
+    <string name="signUp_page">Sign Up</string>
+    <string name="resetPassword_page">Reset Password</string>
+    <string name="activities_page">Activities</string>
+    <string name="activity_page">Activity</string>
+    <string name="account_page">Account</string>
+    <string name="edit_page">Edit</string>
+    <string name="events_page">Events</string>
+    <string name="event_page">Event</string>
+    <string name="badge_page">Badge</string>
+</resources>

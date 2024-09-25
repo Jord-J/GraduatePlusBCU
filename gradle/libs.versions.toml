@@ -1,0 +1,42 @@
+[versions]
+agp = "8.6.1"
+android-compileSdk = "34"
+android-minSdk = "24"
+android-targetSdk = "34"
+androidx-activityCompose = "1.9.2"
+compose = "1.7.2"
+compose-plugin = "1.6.2"
+kotlin = "1.9.23"
+voyagerVersion = "1.0.0"
+annotationJvm = "1.8.2"
+gservices = "4.4.2"
+firebaseAuth = "1.11.1"
+ktor = "2.3.9"
+kamel = "0.9.4"
+peekaboo = "0.5.2"
+
+[libraries]
+peekaboo-ui = { module = "io.github.onseok:peekaboo-ui", version.ref = "peekaboo" }
+peekaboo-image-picker = { module = "io.github.onseok:peekaboo-image-picker", version.ref = "peekaboo" }
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+kamel-compose = { module = "media.kamel:kamel-image", version.ref = "kamel" }
+ktor-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor" }
+ktor-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor" }
+firebase-auth = { module = "dev.gitlive:firebase-auth", version.ref = "firebaseAuth" }
+firebase-database = { module = "dev.gitlive:firebase-database", version.ref = "firebaseAuth" }
+firebase-storage = { module = "dev.gitlive:firebase-storage", version.ref = "firebaseAuth" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
+compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }
+compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
+navigator = { module = "cafe.adriel.voyager:voyager-navigator", version.ref = "voyagerVersion" }
+screen-model = { module = "cafe.adriel.voyager:voyager-screenmodel", version.ref = "voyagerVersion" }
+transitions = { module = "cafe.adriel.voyager:voyager-transitions", version.ref = "voyagerVersion" }
+androidx-annotation-jvm = { group = "androidx.annotation", name = "annotation-jvm", version.ref = "annotationJvm" }
+
+[plugins]
+kotlinxSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+jetbrainsCompose = { id = "org.jetbrains.compose", version.ref = "compose-plugin" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+googleServices = { id = "com.google.gms.google-services", version.ref = "gservices" }
